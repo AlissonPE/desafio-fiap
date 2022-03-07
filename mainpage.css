@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+}
+
+.deposito {
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  background: #082278;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.relogio-ponteiro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 175px;
+  background: #2c3e78;
+}
+
+.fa-clock {
+  color: rgb(251, 239, 239);
+  font-size: 110px;
+}
+
+.row-alarmes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  border: 1px solid transparent;
+  border-bottom-color: #1147f7;
+  color: whitesmoke;
+}
+
+.alarme-horario {
+  flex-direction: column;
+  display: flex;
+}
+
+.menu-mobile {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+  background: write;
+  color: whitesmoke;
+}
+.home,
+.slepping-guy,
+.config {
+  padding: 30px;
+}
+
+.liga-desliga {
+}
+
+.fa-toggle-off,
+.fa-toggle-on {
+  font-size: 30px;
+}
